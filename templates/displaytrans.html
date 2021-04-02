@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <body>
+
+    <table border="1" style="width:800px">
+      <tr>
+        <td>  {% for s in details %} </td>
+        <td>   {{ s.script }} </td>
+      </tr>
+      <tr>
+        <td>   {{ s.trans type_id}} </td>
+        {% endfor %}
+      </tr>
+    </table>
+  </body>
+</html>
